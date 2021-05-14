@@ -1,0 +1,54 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+
+}
+
+* {
+    margin: 30;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 69px;
+}
+
+.logo-container, .nav-links {
+    display: flex;
+}
+
+.logo-container {
+    margin-left: 10px;
+    flex: 1;
+    height: auto;
+    max-width: 100%;
+    align-items: center;
+    background-color: lightcoral;
+   }
+
+
+nav { 
+    flex: 2;    
+}
+
+
+.nav-links {
+    
+    display: inline-flex;
+    justify-content: right;
+    background-color: lightcyan;
+    align-content:stretch
+}
+
+.nav-link {
+    font-size: 20px;
+    text-decoration: none;
+    
+}
