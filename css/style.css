@@ -17,7 +17,6 @@ header {
   height: 69px;
   align-items: center;
   border-bottom: 1px solid seashell;
-  
 }
 
 .logo-container,
@@ -61,14 +60,68 @@ nav {
   width: 100%;
 }
 
-.winning-tea-container {
+.winning-tea-header {
   text-align: center;
   margin-top: 80px;
 }
 
 .background-photo2 {
-  background-image: url('../images/img-locations-background.jpg');
+  background-image: url("../images/img-locations-background.jpg");
   width: 1200px;
   height: 500px;
-  
+  /* display: flex;
+  justify-content: center; */
+}
+
+.background-photo2 h2 {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.tea-types {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  justify-content: center;
+}
+
+.tea-types img {
+  max-width: 300px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+figcaption {
+  text-align: center;
+}
+
+article {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+
+.store-infos {
+  background-color: black;
+  width: 300px;
+  text-align: center;
+  opacity: 1;
+}
+
+.info {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer {
+  text-align: center;
+  height: 200px;
+    }
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
 }
